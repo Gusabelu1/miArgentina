@@ -1,0 +1,25 @@
+{
+  "name": "miargentinaapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cool": "^0.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mrz-generator": "github:pgendre/n26-challenge-mrz-generator",
+    "mysql": "^2.18.1",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "path": "^0.12.7"
+  }
+}
